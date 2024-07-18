@@ -1,0 +1,30 @@
+/**{
+background-color: grey;
+}*/
+
+/*body{
+   background-color: grey;
+}*/
+
+.container{
+background-color: #1b1b32;
+color: #ffffff;
+margin: 15%;
+padding: 5%;
+
+}
+
+.form{
+boarder: 5px;
+}
+
+hr{
+width: 100%;
+height: 0.5px;
+background-color: grey;
+boarder-color: grey;
+}
+
+p{
+
+}
