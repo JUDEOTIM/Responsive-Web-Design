@@ -1,0 +1,63 @@
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    #navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      z-index: 1000;
+    }
+    #navbar a {
+      color: white;
+      padding: 0 10px;
+      text-decoration: none;
+    }
+    #welcome-section {
+      padding: 100px 20px;
+      text-align: center;
+      background-color: #a4a4b4;
+    }
+#Skills{
+background-color: #b0a0b4;
+padding: 50px 20px;
+      text-align: center;
+}
+    #projects {
+      padding: 50px 20px;
+      text-align: center;
+      background-color: #0b1a4b;
+    }
+    .project-tile {
+      margin: 20px;
+      padding: 20px;
+      border: 1px solid #ddd;
+      display: inline-block;
+      width: 30%;
+      min-width: 250px;
+      box-sizing: border-box;
+    }
+    .project-tile1{
+      background-image: url(landing page.jpeg);
+      background-color: #a4b4a4;
+}
+
+    .project-tile2{
+      background-image: url(landing page.jpeg);
+      background-color: #a4a4f4;
+}
+    #profile-link {
+      color: blue;
+      text-decoration: none;
+    }
+    @media (max-width: 600px) {
+      .project-tile {
+        width: 100%;
+      }
+    }
+  

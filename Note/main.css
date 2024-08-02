@@ -1,0 +1,92 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    margin: 10px 0;
+}
+
+code {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 2px 4px;
+}
+
+/* Navbar styles */
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+#navbar header {
+    margin-bottom: 20px;
+}
+
+#navbar h1 {
+    font-size: 18px;
+    margin: 0;
+    color: #fff;
+}
+
+#navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+#navbar li {
+    margin-bottom: 10px;
+}
+
+#navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styles */
+#main-doc {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.main-section {
+    margin-bottom: 40px;
+}
+
+/* Media query for responsive design */
+@media (max-width: 600px) {
+    #navbar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    #navbar ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #main-doc {
+        margin-left: 0;
+        padding: 10px;
+    }
+}
