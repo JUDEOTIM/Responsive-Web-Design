@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+ 
+  background-color: #b4a3f1;
+}
+
+#navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  
+}
+.container-fluid{
+background-color: #a4b3b1;
+}
+
+#welcome-section {
+  padding: 100px 0;
+  text-align: center;
+  
+}
+
+.project-tile {
+  margin-bottom: 30px;
+}
+#video{
+display: flex;
+  text-align: center;
+}
+
+@media only screen and (max-width: 720px) {
+  .image-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
